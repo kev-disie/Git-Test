@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+body,
+html {
+  /* background-color: black; */
+  /* color: black */
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  height: 100%;
+}
+.container {
+  background: linear-gradient(135deg, #8a2be2, #4169e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  /* margin-top: 10px; */
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+  /* margin-bottom: 20px; */
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 350px;
+}
+.logo {
+  /* margin-bottom: 10px; */
+  /* margin-top: 20px; */
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.email {
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: medium;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
+}
+
+.h1 {
+  margin-bottom: 40px;
+}
+.p {
+  margin-bottom: 40px;
+}
+.notify {
+  border-radius: 5px;
+  /* font-style: italic; */
+  font-size: medium;
+  background-color: #8a2be2;
+  cursor: pointer;
+  color: azure;
+}
+.email:hover {
+  background-color: aquamarine;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.notify:hover {
+  background-color: black;
+  transition: background-color 0.9s ease-in-out;
+}
+.svg {
+  margin-top: 20px;
+  width: 100%;
+  /* height: ; */
+  position: inherit;
+}
